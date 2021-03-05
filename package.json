@@ -1,5 +1,5 @@
 {
-  "name": "gr-event-dispatcher",
+  "name": "sandt-event-dispatcher",
   "version": "1.1.1",
   "description": "JavaScript events for custom objects",
   "main": "src/eventDispatcher.js",
@@ -7,6 +7,9 @@
     "test": "karma start",
     "lint": "gulp lint",
     "build": "gulp uglify"
+  },
+  "publishConfig": {
+    "registry": "http://192.168.5.104:8081/nexus/content/repositories/npm-internal/"
   },
   "repository": {
     "type": "git",
